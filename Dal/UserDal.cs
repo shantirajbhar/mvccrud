@@ -36,7 +36,7 @@ namespace MVC_CRUD1.Dal
 
         public List<User> getAllUserList()
         {
-            string sql = "select id,f_name,l_name,email,phone_no,city,address from users where active='y'";
+            string sql = "select id,f_name,l_name,email,phone_no,city,address ,active from users where active='y'";
             List<User> userList = new List<User>();
             using (SqlConnection conn = new SqlConnection(strcon))
             {
@@ -57,7 +57,9 @@ namespace MVC_CRUD1.Dal
                                 user.lname = dr[2].ToString();
                                 user.email = dr[3].ToString();
                                 user.phone = dr[4].ToString();
-                                user.add = dr[5].ToString();
+                                user.city = dr[5].ToString();
+                                user.add = dr[6].ToString();
+                                user.active = dr[7].ToString();
                                 userList.Add(user);
                             }
                         }
