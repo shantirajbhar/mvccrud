@@ -1,0 +1,53 @@
+E:\MVC CRUD1\MVC CRUD1\obj\Debug\MVC CRUD1.csprojResolveAssemblyReference.cache
+E:\MVC CRUD1\MVC CRUD1\bin\ApplicationInsights.config
+E:\MVC CRUD1\MVC CRUD1\bin\roslyn\csc.exe
+E:\MVC CRUD1\MVC CRUD1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\MVC CRUD1\MVC CRUD1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\MVC CRUD1\MVC CRUD1\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\MVC CRUD1\MVC CRUD1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\MVC CRUD1\MVC CRUD1\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\MVC CRUD1\MVC CRUD1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\MVC CRUD1\MVC CRUD1\bin\roslyn\System.Collections.Immutable.dll
+E:\MVC CRUD1\MVC CRUD1\bin\roslyn\System.Reflection.Metadata.dll
+E:\MVC CRUD1\MVC CRUD1\bin\roslyn\vbc.exe
+E:\MVC CRUD1\MVC CRUD1\bin\roslyn\VBCSCompiler.exe
+E:\MVC CRUD1\MVC CRUD1\bin\roslyn\VBCSCompiler.exe.config
+E:\MVC CRUD1\MVC CRUD1\bin\MVC CRUD1.dll.config
+E:\MVC CRUD1\MVC CRUD1\bin\MVC CRUD1.dll
+E:\MVC CRUD1\MVC CRUD1\bin\MVC CRUD1.pdb
+E:\MVC CRUD1\MVC CRUD1\bin\Antlr3.Runtime.dll
+E:\MVC CRUD1\MVC CRUD1\bin\Microsoft.AI.Agent.Intercept.dll
+E:\MVC CRUD1\MVC CRUD1\bin\Microsoft.AI.DependencyCollector.dll
+E:\MVC CRUD1\MVC CRUD1\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\MVC CRUD1\MVC CRUD1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\MVC CRUD1\MVC CRUD1\bin\Microsoft.AI.Web.dll
+E:\MVC CRUD1\MVC CRUD1\bin\Microsoft.AI.WindowsServer.dll
+E:\MVC CRUD1\MVC CRUD1\bin\Microsoft.ApplicationInsights.dll
+E:\MVC CRUD1\MVC CRUD1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\MVC CRUD1\MVC CRUD1\bin\Microsoft.Web.Infrastructure.dll
+E:\MVC CRUD1\MVC CRUD1\bin\Newtonsoft.Json.dll
+E:\MVC CRUD1\MVC CRUD1\bin\System.Web.Helpers.dll
+E:\MVC CRUD1\MVC CRUD1\bin\System.Web.Mvc.dll
+E:\MVC CRUD1\MVC CRUD1\bin\System.Web.Optimization.dll
+E:\MVC CRUD1\MVC CRUD1\bin\System.Web.Razor.dll
+E:\MVC CRUD1\MVC CRUD1\bin\System.Web.WebPages.Deployment.dll
+E:\MVC CRUD1\MVC CRUD1\bin\System.Web.WebPages.dll
+E:\MVC CRUD1\MVC CRUD1\bin\System.Web.WebPages.Razor.dll
+E:\MVC CRUD1\MVC CRUD1\bin\WebGrease.dll
+E:\MVC CRUD1\MVC CRUD1\bin\Microsoft.AI.DependencyCollector.xml
+E:\MVC CRUD1\MVC CRUD1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\MVC CRUD1\MVC CRUD1\bin\Microsoft.AI.Web.xml
+E:\MVC CRUD1\MVC CRUD1\bin\Microsoft.AI.WindowsServer.xml
+E:\MVC CRUD1\MVC CRUD1\bin\Microsoft.ApplicationInsights.xml
+E:\MVC CRUD1\MVC CRUD1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\MVC CRUD1\MVC CRUD1\bin\System.Web.Helpers.xml
+E:\MVC CRUD1\MVC CRUD1\bin\System.Web.Mvc.xml
+E:\MVC CRUD1\MVC CRUD1\bin\System.Web.Optimization.xml
+E:\MVC CRUD1\MVC CRUD1\bin\System.Web.Razor.xml
+E:\MVC CRUD1\MVC CRUD1\bin\System.Web.WebPages.xml
+E:\MVC CRUD1\MVC CRUD1\bin\System.Web.WebPages.Deployment.xml
+E:\MVC CRUD1\MVC CRUD1\bin\System.Web.WebPages.Razor.xml
+E:\MVC CRUD1\MVC CRUD1\bin\Antlr3.Runtime.pdb
+E:\MVC CRUD1\MVC CRUD1\bin\Newtonsoft.Json.xml
+E:\MVC CRUD1\MVC CRUD1\obj\Debug\MVC CRUD1.dll
+E:\MVC CRUD1\MVC CRUD1\obj\Debug\MVC CRUD1.pdb

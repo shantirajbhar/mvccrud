@@ -1,0 +1,28 @@
+﻿@model IEnumerable<MVC_CRUD1.Models.User>
+@{
+    ViewBag.Title = "Home Page";
+
+
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>this is edit page</h1>
+
+@foreach (var item in Model)
+{
+    <div class="jumbotron">
+        <form action="@Url.Action("updateInfo")" method="post">
+            <input type="hidden" name="id" value="@Html.DisplayFor(modelItem => item.id)" />
+            <input type="text" placeholder="First Name" name="fname" value="@Html.DisplayFor(modelItem => item.fname)" />
+            <input type="text" placeholder="Last Name" name="lname" value="@Html.DisplayFor(modelItem => item.lname)" />
+            <input type="text" placeholder="Email" name="email" value="@Html.DisplayFor(modelItem => item.email)" />
+            <input type="text" placeholder="Phone No" name="phone" value="@Html.DisplayFor(modelItem => item.phone)" />
+            <input type="text" placeholder="City" name="city" value="@Html.DisplayFor(modelItem => item.city)" />
+            <input type="text" placeholder="Address" name="add" value="@Html.DisplayFor(modelItem => item.add)" />
+            <input type="Submit" value="submit">
+
+        </form>
+    </div>
+}
+

@@ -1,0 +1,96 @@
+﻿@model IEnumerable<MVC_CRUD1.Models.User>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+
+    @*<form action="@Url.Action("ResiterUser")" method="post">
+
+            <input type="text" placeholder="First Name" name="fname" />
+            <input type="text" placeholder="Last Name" name="lname" />
+            <input type="text" placeholder="Email" name="email" />
+            <input type="text" placeholder="Phone No" name="phone" />
+            <input type="text" placeholder="City" name="city" />
+            <input type="text" placeholder="Address" name="add" />
+            <input type="Submit" value="submit">
+
+        </form>*@
+
+    <form action="@Url.Action("ResiterUser")" method="post">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <input type="text" placeholder="First Name" name="fname" class="form-control">
+                </div>
+            </div>
+        
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <input type="text" placeholder="Last Name" " name="lname" class="form-control">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <input type="text" placeholder="Email" name="email" class="form-control">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <input type="text" placeholder="Phone No" name="phone" class="form-control">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <input type="text" placeholder="City" name="city" class="form-control">
+                </div>
+            </div>
+
+        <div class="col-md-4">
+            <div class="form-group">
+                <input type="text" placeholder="Address" name="add" class="form-control">
+            </div>
+        </div>
+      </div>
+
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>fname</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+            {
+            <tr>
+                <td> @Html.DisplayFor(modelItem => item.id)</td>
+                <td> @Html.DisplayFor(modelItem => item.fname)</td>
+                <td> @Html.DisplayFor(modelItem => item.lname)</td>
+                <td> @Html.DisplayFor(modelItem => item.email)</td>
+                <td> @Html.DisplayFor(modelItem => item.phone)</td>
+                <td> @Html.DisplayFor(modelItem => item.city)</td>
+                <td> @Html.DisplayFor(modelItem => item.add)</td>
+                <td><a href="@Url.Action("editpage","Home", new  { edit = item.id })">Edit</a>/<a href="@Url.Action("deletpage","Home",new { delete = item.id })">Delete</a></td>
+            </tr>
+        }
+
+
+    </tbody>
+
+</table>
+</div>
